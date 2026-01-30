@@ -1,0 +1,167 @@
+[
+  {
+    "id": "stripe-webhooks",
+    "name": "Stripe Webhooks",
+    "category": "Payment",
+    "description": "Handle Stripe payment events including checkout sessions, invoices, and subscription lifecycle events.",
+    "repoUrl": "https://github.com/stripe/stripe-node",
+    "repoOwner": "stripe",
+    "repoName": "stripe-node",
+    "stars": 3800,
+    "language": "TypeScript"
+  },
+  {
+    "id": "twilio-webhooks",
+    "name": "Twilio Webhooks",
+    "category": "Communication",
+    "description": "Process SMS, voice calls, and messaging events from Twilio's communication platform.",
+    "repoUrl": "https://github.com/twilio/twilio-node",
+    "repoOwner": "twilio",
+    "repoName": "twilio-node",
+    "stars": 1400,
+    "language": "TypeScript"
+  },
+  {
+    "id": "github-webhooks",
+    "name": "GitHub Webhooks",
+    "category": "DevOps",
+    "description": "Respond to repository events like pushes, pull requests, issues, and deployments.",
+    "repoUrl": "https://github.com/octokit/webhooks.js",
+    "repoOwner": "octokit",
+    "repoName": "webhooks.js",
+    "stars": 450,
+    "language": "TypeScript"
+  },
+  {
+    "id": "aws-s3-events",
+    "name": "AWS S3 Events",
+    "category": "Storage",
+    "description": "Handle S3 bucket notifications for object creation, deletion, and replication events.",
+    "repoUrl": "https://github.com/aws/aws-sdk-js-v3",
+    "repoOwner": "aws",
+    "repoName": "aws-sdk-js-v3",
+    "stars": 3100,
+    "language": "TypeScript"
+  },
+  {
+    "id": "auth0-hooks",
+    "name": "Auth0 Hooks",
+    "category": "Authentication",
+    "description": "Customize authentication flows with pre and post login, registration, and password reset hooks.",
+    "repoUrl": "https://github.com/auth0/node-auth0",
+    "repoOwner": "auth0",
+    "repoName": "node-auth0",
+    "stars": 600,
+    "language": "TypeScript"
+  },
+  {
+    "id": "supabase-webhooks",
+    "name": "Supabase Webhooks",
+    "category": "Database",
+    "description": "Trigger functions on database changes including inserts, updates, and deletes via Postgres triggers.",
+    "repoUrl": "https://github.com/supabase/supabase-js",
+    "repoOwner": "supabase",
+    "repoName": "supabase-js",
+    "stars": 3200,
+    "language": "TypeScript"
+  },
+  {
+    "id": "shopify-webhooks",
+    "name": "Shopify Webhooks",
+    "category": "E-commerce",
+    "description": "Handle store events including orders, products, customers, and inventory updates.",
+    "repoUrl": "https://github.com/Shopify/shopify-api-js",
+    "repoOwner": "Shopify",
+    "repoName": "shopify-api-js",
+    "stars": 1100,
+    "language": "TypeScript"
+  },
+  {
+    "id": "segment-webhooks",
+    "name": "Segment Webhooks",
+    "category": "Analytics",
+    "description": "Forward analytics events to custom destinations and trigger workflows on user actions.",
+    "repoUrl": "https://github.com/segmentio/analytics-node",
+    "repoOwner": "segmentio",
+    "repoName": "analytics-node",
+    "stars": 600,
+    "language": "TypeScript"
+  },
+  {
+    "id": "slack-events",
+    "name": "Slack Events API",
+    "category": "Communication",
+    "description": "Build interactive Slack apps responding to messages, reactions, and workspace events.",
+    "repoUrl": "https://github.com/slackapi/bolt-js",
+    "repoOwner": "slackapi",
+    "repoName": "bolt-js",
+    "stars": 2700,
+    "language": "TypeScript"
+  },
+  {
+    "id": "paypal-webhooks",
+    "name": "PayPal Webhooks",
+    "category": "Payment",
+    "description": "Process payment authorizations, captures, refunds, and dispute events from PayPal.",
+    "repoUrl": "https://github.com/paypal/PayPal-node-SDK",
+    "repoOwner": "paypal",
+    "repoName": "PayPal-node-SDK",
+    "stars": 600,
+    "language": "JavaScript"
+  },
+  {
+    "id": "clerk-webhooks",
+    "name": "Clerk Webhooks",
+    "category": "Authentication",
+    "description": "Sync user data and respond to authentication events like sign-ups and session changes.",
+    "repoUrl": "https://github.com/clerk/javascript",
+    "repoOwner": "clerk",
+    "repoName": "javascript",
+    "stars": 1200,
+    "language": "TypeScript"
+  },
+  {
+    "id": "sendgrid-webhooks",
+    "name": "SendGrid Webhooks",
+    "category": "Communication",
+    "description": "Track email delivery events including opens, clicks, bounces, and spam reports.",
+    "repoUrl": "https://github.com/sendgrid/sendgrid-nodejs",
+    "repoOwner": "sendgrid",
+    "repoName": "sendgrid-nodejs",
+    "stars": 3000,
+    "language": "TypeScript"
+  },
+  {
+    "id": "vercel-webhooks",
+    "name": "Vercel Webhooks",
+    "category": "DevOps",
+    "description": "React to deployment events, domain changes, and project updates on Vercel.",
+    "repoUrl": "https://github.com/vercel/vercel",
+    "repoOwner": "vercel",
+    "repoName": "vercel",
+    "stars": 12500,
+    "language": "TypeScript"
+  },
+  {
+    "id": "planetscale-webhooks",
+    "name": "PlanetScale Webhooks",
+    "category": "Database",
+    "description": "Monitor database branch operations, deploy requests, and schema changes.",
+    "repoUrl": "https://github.com/planetscale/database-js",
+    "repoOwner": "planetscale",
+    "repoName": "database-js",
+    "stars": 1300,
+    "language": "TypeScript"
+  },
+  {
+    "id": "svix-webhooks",
+    "name": "Svix Webhooks",
+    "category": "General",
+    "description": "Enterprise webhook delivery infrastructure with retries, signatures, and monitoring.",
+    "repoUrl": "https://github.com/svix/svix-webhooks",
+    "repoOwner": "svix",
+    "repoName": "svix-webhooks",
+    "stars": 2400,
+    "language": "TypeScript"
+  }
+]

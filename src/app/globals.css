@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafafa;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #09090b;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Category badge colors */
+[data-category="Payment"] {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+[data-category="Communication"] {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+[data-category="DevOps"] {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+[data-category="Storage"] {
+  background-color: #f3e8ff;
+  color: #7c3aed;
+}
+
+[data-category="Authentication"] {
+  background-color: #fce7f3;
+  color: #be185d;
+}
+
+[data-category="Database"] {
+  background-color: #cffafe;
+  color: #0e7490;
+}
+
+[data-category="E-commerce"] {
+  background-color: #ffedd5;
+  color: #c2410c;
+}
+
+[data-category="Analytics"] {
+  background-color: #e0e7ff;
+  color: #4338ca;
+}
+
+[data-category="General"] {
+  background-color: #f4f4f5;
+  color: #3f3f46;
+}
+
+/* Dark mode badge colors */
+@media (prefers-color-scheme: dark) {
+  [data-category="Payment"] {
+    background-color: #166534;
+    color: #dcfce7;
+  }
+
+  [data-category="Communication"] {
+    background-color: #1e40af;
+    color: #dbeafe;
+  }
+
+  [data-category="DevOps"] {
+    background-color: #92400e;
+    color: #fef3c7;
+  }
+
+  [data-category="Storage"] {
+    background-color: #5b21b6;
+    color: #f3e8ff;
+  }
+
+  [data-category="Authentication"] {
+    background-color: #9d174d;
+    color: #fce7f3;
+  }
+
+  [data-category="Database"] {
+    background-color: #0e7490;
+    color: #cffafe;
+  }
+
+  [data-category="E-commerce"] {
+    background-color: #c2410c;
+    color: #ffedd5;
+  }
+
+  [data-category="Analytics"] {
+    background-color: #4338ca;
+    color: #e0e7ff;
+  }
+
+  [data-category="General"] {
+    background-color: #3f3f46;
+    color: #f4f4f5;
+  }
+}
